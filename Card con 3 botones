@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="seccionCardBlog">
+        <div class="cardBlog">
+            <div class="cardBlogHeader">
+                <img src="https://ivonnecanoti.com/wp-content/uploads/2023/02/avatar.png" alt="Perfil ivonne Canoti">
+            </div>
+            <div class="cardBlogBody">
+                <h3>Ivonne Canoti</h3>
+                <p>Mentora</p>
+            </div>
+            <div class="cardBlogFooter">
+                <a href="https://ivonnecanoti.com/holistica/"> <button class="cardBlogFooterHolistica">HOLISTICA</button></a>
+                <BUtton class="popmake-753">AGENDA</BUtton>
+                <a href="https://ivonnecanoti.com/coaching/"> <button class="cardBlogFooterCoaching">COACHING</button></a>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #E7B948;
+        }
+        
+        .seccionCardBlog {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .cardBlog {
+            background-color: rgb(255, 255, 255);
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            box-shadow: 0px 79px 32px rgba(0, 0, 0, 0.02), 0px 44px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.11);
+            border-radius: 20px;
+        }
+        
+        .cardBlogHeader {
+            display: contents;
+        }
+        
+        .cardBlogHeader img {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .cardBlogBody {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .cardBlogBody h3 {
+            margin-bottom: 3px;
+        }
+        
+        .cardBlogBody p {
+            margin-top: 3px;
+        }
+        
+        .cardBlogFooter {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 285px;
+            height: 39px;
+        }
+        
+        .cardBlogFooterHolistica {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 16px;
+            background: #86289C;
+            border-radius: 4px;
+            border: 2px solid #86289C;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 11px;
+            color: #FFFFFF;
+        }
+        
+        .cardBlogFooter a {
+            text-decoration: none;
+        }
+        
+        .popmake-753 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 16px;
+            background: #ffffff;
+            border-radius: 4px;
+            border: 2px solid #000000;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 11px;
+            color: #343434
+        }
+        
+        .cardBlogFooterCoaching {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 16px;
+            background: #E7B948;
+            border-radius: 4px;
+            border: 2px solid #E7B948;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 11px;
+            color: #FFFFFF
+        }
+    </style>
+
+</body>
+
+</html>
